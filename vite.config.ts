@@ -7,7 +7,7 @@ export default defineConfig({
   //Localhost
   // base: './',
 
-  // base: '/project-1129/',
+  base: '/project-1137/',
 
   plugins: [react()],
   resolve: {
