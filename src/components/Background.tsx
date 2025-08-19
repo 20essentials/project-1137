@@ -1,9 +1,9 @@
 import '@/styles/Background.css';
 import ModelViewer from '@/components/ModelViewer';
-// import { withBase } from '@/utils/functionsTs';
-// const url = withBase('/assets/CarbonFibre/glTF/CarbonFibre.gltf');
+import { withBase } from '@/utils/functionsTs';
+const url = withBase('/assets/DamagedHelmet/glTF/DamagedHelmet.gltf');
 
-const url = './assets/DamagedHelmet/glTF/DamagedHelmet.gltf';
+// const url = './assets/DamagedHelmet/glTF/DamagedHelmet.gltf';
 
 export const Background = () => {
   return (
